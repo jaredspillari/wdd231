@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Asimovian', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #D0E8F2;
+    color: #1C1C1C;
+}
+
+#course-title {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: #034078;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #05668D;
+    color: #FFFFFF;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    color: #034078;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+nav ul li a:hover {
+    background-color: #00A6FB;
+    color: #034078;
+    border: 10px;
+    padding: 0.5rem 1rem;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+    gap: 1rem;
+    align-items: stretch;
+}
+
+.card {
+    background-color: #E1F5FE;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+h3,
+h2 {
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0.5rem;
+    color: #034078;
+}
+
+.card ul li {
+    text-align: center;
+    list-style: none;
+    gap: 250px;
+    padding: 0;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    min-width: 40px;
+    min-height: 40px;
+}
+
+
+
+.me_photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    border: 3px solid #005f99;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+
+/*.me_block {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 1rem;
+}*/
+
+.me_block img {
+    flex-shrink: 0;
+}
+.me_block  {
+    display: grid;
+    place-items: center;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    background-color: #05668D;
+    color: #FFFFFF;
+}
