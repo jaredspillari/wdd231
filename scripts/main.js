@@ -1,3 +1,23 @@
+const hamburger = document.querySelector(".hamburger");
+const navigation = document.querySelector(".navigation");
+
+hamburger.addEventListener("click", () => {
+    navigation.classList.toggle("show");
+
+    // Accesibilidad
+    const isOpen = navigation.classList.contains("show");
+    hamburger.setAttribute("aria-expanded", isOpen);
+});
+/* ============================
+   date
+============================ */
+const currentYear = new Date().getFullYear();
+document.getElementById("currentyear").textContent = currentYear;
+
+document.getElementById("lastModified").textContent = document.lastModified;
+/* ============================
+    courses 
+============================ */
 /* ============================
    Course List Array
 ============================ */
