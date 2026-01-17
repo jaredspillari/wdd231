@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Asimovian', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #D0E8F2;
+    color: #1C1C1C;
+    line-height: 1.6;
+    margin: 0;
+    padding: 10px;
+}
+
+.header_content {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 1rem;
+}
+
+.byu_logo {
+    width: 90px;
+    height: auto;
+}
+
+#course-title {
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: #034078;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #05668D;
+}
+
+.navigation {
+    display: none;
+    /* Mobile default, se sobreescribe en media query */
+    flex-direction: column;
+    width: 100%;
+}
+
+.navigation.show {
+    display: flex;
+    /* Activado por JS */
+}
+
+/* Links nav */
+nav ul {
+    display: flex;
+    list-style: none;
+    color: #034078;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #00A6FB;
+    color: #034078;
+}
+
+/* Home grid */
+
+
+.page-title {
+    grid-area: title;
+    font-size: 2rem;
+    color: #034078;
+}
+
+.about {
+    grid-area: about;
+}
+
+.photo {
+    grid-area: photo;
+    text-align: center;
+}
+
+.courses {
+    grid-area: courses;
+}
+
+/* Cards */
+.card {
+    background-color: #E1F5FE;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card h2,
+.card h3 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0.5rem;
+    color: #034078;
+}
+
+.me_photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    border: 3px solid #005f99;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    background-color: #05668D;
+    color: #FFFFFF;
+}
+
+/* =======================
+   Media Query Desktop
+   ======================= */
+@media (min-width: 769px) {
+
+    /* Hamburger desaparece */
+    .hamburger {
+        display: none;
+    }
+
+    /* Mostrar navegación siempre */
+    .navigation {
+        display: flex;
+        flex-direction: row;
+    }
+    .home_grid {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+        "title title"
+        "about photo"
+        "courses courses";
+    gap: 1.5rem;
+    } 
+    nav ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+        #courses {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            justify-items: center;
+            margin-top: 1rem;
+        }
+    
+        #courses .card.completed {
+            background-color: #B2EBF2;
+            border: 2px solid #005f99;
+        }
+}

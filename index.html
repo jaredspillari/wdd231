@@ -6,31 +6,34 @@
     <meta name="description" content="WDD 231: Web Frontend Development I - Jeffrey Castellanos' Course Page">
     <meta name="author" content="Jeffrey Castellanos">
     <title>WDD 231: Web Frontend Development I</title>
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
 </head>
 <body>
     <header>
         <div class="header_content">
-            <img src="images/byu_logo.png" alt="BYU-Idaho Logo" class="byu_logo" />
-            <span id="course-title">WDD 231: Web Frontend Development I</span>
-            <button class="hamburger" aria-label="Menu">
-                ☰
+            <img src="images/byu_logo.svg" alt="BYU-Idaho Logo" class="byu_logo" />
+            <span id="course-title">Jeffrey Castellanos</span>
+            <button class="hamburger" aria-label="Menu" aria-expanded="false">
+                &#9776;
             </button>
         </div> 
         <nav>
             <ul class="navigation">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Chamber Project</a></li>
-                <li><a href="#">Scripture</a></li>
+                <li><a href="#">Chamber</a></li>
+                <li><a href="#">Final</a></li>
             </ul>
         </nav>
     </header>
-        <h2>Home</h2>
-        <main>
-            
-            <section class="card">
+        
+        <main class="home_grid">
+            <h1 class="page-title">Home</h1>
+            <section class="card about">
                 <h2>About me</h2>
-                <div class="me_block">
                     <p>My name is Jeffrey Castellanos, I was born and raised in Guatemala, where I have lived for
                         the past 25
                         years. I
@@ -41,24 +44,27 @@
                         my beautiful
                         fiancée, and we are preparing for our upcoming wedding.
                     </p>
-                </div> 
             </section>
-            <section class="card">
+            <section class="card photo">
                 <h2>Student Photo</h2>
-                <div class="me_block">
                     <img src="images/student_photo.jpg" alt="Jeffrey Castellanos Photo" class="me_photo" />
-                </div>
             </section>
-            <section class="card">
-                <h2>Additional Information</h2>
-                <p>
-                    I am currently studying Web Frontend Development and preparing for my upcoming wedding.
-                </p>
+            <section class="card courses">
+                <h2>Web & Computer Programming Certificate</h2>
+                
+                <div class="course-filters">
+                    <button id="all">All</button>
+                    <button id="wdd">WDD</button>
+                    <button id="cse">CSE</button>
+                </div>
+                
+                <div id="courses"></div>
+                <p id="totalCredits"></p>
             </section>
         </main>
         <footer>
             <div class="footer-social">
-                <a href="https://github.com/" target="_blank">GitHub</a>
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
                 <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
             </div>
             <!--this part is clear and all information is on getdates.js-->
