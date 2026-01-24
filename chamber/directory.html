@@ -6,10 +6,49 @@
     <meta name="description" content="Guatemala City Chamber of Commerce - Jeffrey Castellanos' Course Page">
     <meta name="author" content="Jeffrey Castellanos">
     <meta http-equiv="Cache-Control" content="max-age=31536000">
+    <script src="scripts/main.js" defer></script>
     <title>Guatemala City Chamber of Commerce</title>
     <link rel="icon"  href="images/favicon-32x32.png" >
 </head>
 <body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Guatemala City Chamber of Commerce logo">
+            <h1>Guatemala City Chamber of Commerce</h1>
+        </div>
     
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="directory-controls">
+            <button id="grid">Grid View</button>
+            <button id="list">List View</button>
+        </section>
+    
+        <section class="directory" id="directory">
+            <!-- Member cards will go here -->
+        </section>
+    </main>
+    <footer>
+        <div class="footer-contact">
+            <p><strong>Guatemala City Chamber of Commerce</strong></p>
+            <p>Email: info@gcchamber.org</p>
+            <p>Phone: +502 3834-6665</p>
+        </div>
+    
+        <div class="footer-info">
+            <span id="currentyear"></span> © Jeffrey Castellanos | WDD231
+        </div>
+        <div class="footer-modified">
+            <p >Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
 </body>
 </html>
