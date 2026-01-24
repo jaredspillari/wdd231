@@ -1,0 +1,44 @@
+@media (min-width: 768px) {
+
+    /* Header layout */
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav {
+        margin-top: 0;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    nav li {
+        margin-bottom: 0;
+    }
+
+    nav a {
+        padding: 0.5rem 1rem;
+    }
+
+    /* Directory GRID view only */
+    .directory.grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    /* Directory LIST view only (optional but clean) */
+    .directory.list .member-card {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    /* Footer */
+    footer {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+}

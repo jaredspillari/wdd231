@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name": "TechNova Solutions",
+            "address": "12 Avenida Reforma, Guatemala City",
+            "phone": "+502 5555-1001",
+            "website": "https://www.technova.com",
+            "image": "technova.jpg",
+            "membership": 3,
+            "description": "Technology consulting and software development."
+        },
+        {
+            "name": "Green Market GT",
+            "address": "Zona 10, Guatemala City",
+            "phone": "+502 5555-1002",
+            "website": "https://www.greenmarketgt.com",
+            "image": "greenmarket.jpg",
+            "membership": 2,
+            "description": "Organic and locally sourced products."
+        },
+        {
+            "name": "Urban Fitness Club",
+            "address": "Zona 14, Guatemala City",
+            "phone": "+502 5555-1003",
+            "website": "https://www.urbanfitness.com",
+            "image": "urbanfitness.jpg",
+            "membership": 1,
+            "description": "Modern gym and wellness center."
+        },
+        {
+            "name": "Skyline Realty",
+            "address": "Zona 9, Guatemala City",
+            "phone": "+502 5555-1004",
+            "website": "https://www.skylinerealty.com",
+            "image": "skylinerealty.jpg",
+            "membership": 3,
+            "description": "Residential and commercial real estate."
+        },
+        {
+            "name": "Cafe Central",
+            "address": "Centro Histórico, Guatemala City",
+            "phone": "+502 5555-1005",
+            "website": "https://www.cafecentral.com",
+            "image": "cafecentral.jpg",
+            "membership": 2,
+            "description": "Artisan coffee and pastries."
+        },
+        {
+            "name": "SecureIT",
+            "address": "Zona 4, Guatemala City",
+            "phone": "+502 5555-1006",
+            "website": "https://www.secureit.com",
+            "image": "secureit.jpg",
+            "membership": 1,
+            "description": "Cybersecurity services."
+        },
+        {
+            "name": "Motion Motors",
+            "address": "Carretera a El Salvador",
+            "phone": "+502 5555-1007",
+            "website": "https://www.motionmotors.com",
+            "image": "motionmotors.jpg",
+            "membership": 3,
+            "description": "Vehicle sales and maintenance."
+        }
+    ]
+}
