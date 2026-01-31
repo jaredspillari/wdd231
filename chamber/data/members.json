@@ -32,7 +32,7 @@
             "address": "Zona 9, Guatemala City",
             "phone": "+502 5555-1004",
             "website": "https://www.skylinerealty.com",
-            "image": "skylinerealty.jpg",
+            "image": "skylinerealty.webp",
             "membership": 3,
             "description": "Residential and commercial real estate."
         },
@@ -41,7 +41,7 @@
             "address": "Centro Histórico, Guatemala City",
             "phone": "+502 5555-1005",
             "website": "https://www.cafecentral.com",
-            "image": "cafecentral.jpg",
+            "image": "cafecentral.webp",
             "membership": 2,
             "description": "Artisan coffee and pastries."
         },
@@ -59,7 +59,7 @@
             "address": "Carretera a El Salvador",
             "phone": "+502 5555-1007",
             "website": "https://www.motionmotors.com",
-            "image": "motionmotors.jpg",
+            "image": "motionmotors.webp",
             "membership": 3,
             "description": "Vehicle sales and maintenance."
         }
