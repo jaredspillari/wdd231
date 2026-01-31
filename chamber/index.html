@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Guatemala City Chamber of Commerce - Home Page">
+    <meta name="author" content="Jeffrey Castellanos">
+    <meta http-equiv="Cache-Control" content="max-age=31536000">
+
+    <title>Guatemala City Chamber of Commerce</title>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Guatemala City Chamber of Commerce">
+    <meta property="og:description" content="Supporting local businesses and economic growth in Guatemala City.">
+    <meta property="og:image" content="https://yourgithubusername.github.io/wdd231/chamber/images/og-image.jpg">
+    <meta property="og:url" content="https://yourgithubusername.github.io/wdd231/chamber/index.html">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <!-- JS -->
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlights.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Guatemala City Chamber of Commerce logo">
+            <h1>Guatemala City Chamber of Commerce</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero">
+            <img src="images/Guatemala_skyline.jpg" alt="Guatemala City skyline">
+            <div class="hero-text">
+                <h2>Connecting Businesses. Building Community.</h2>
+                <a href="join.html" class="cta-button">Join the Chamber</a>
+            </div>
+        </section>
+
+        <!-- EVENTS -->
+        <div class="events-weather">   
+        <section class="events">
+            <h2>Current Events</h2>
+            <ul>
+                <li>📅 Business Networking Night – February 15</li>
+                <li>📅 Small Business Workshop – February 22</li>
+                <li>📅 Community Expo – March 5</li>
+            </ul>
+        </section>
+
+        <!-- WEATHER -->
+        <section class="weather">
+            <h2>Weather</h2>
+            <p id="current-temp"></p>
+            <p id="weather-desc"></p>
+            <div id="forecast"></div>
+        </section>
+        </div>
+
+        <!-- SPOTLIGHTS -->
+        <section class="spotlights">
+            <h2>Member Spotlights</h2>
+            <div id="spotlight-cards" class="spotlight-container">
+                <!-- Spotlight cards injected by JS -->
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-contact">
+            <p><strong>Guatemala City Chamber of Commerce</strong></p>
+            <p>Email: info@gcchamber.org</p>
+            <p>Phone: +502 3834-6665</p>
+        </div>
+
+        <div class="footer-info">
+            <span id="currentyear"></span> © Jeffrey Castellanos | WDD231
+        </div>
+
+        <div class="footer-modified">
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+
+</html>

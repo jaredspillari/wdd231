@@ -1,6 +1,8 @@
 @media (min-width: 768px) {
 
-    /* Header layout */
+    /* ===============================
+       Header & Navigation
+    =============================== */
     header {
         display: flex;
         justify-content: space-between;
@@ -24,18 +26,65 @@
         padding: 0.5rem 1rem;
     }
 
-    /* Directory GRID view only */
+    /* ===============================
+       Main Layout
+    =============================== */
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    /* ===============================
+       Hero (Desktop)
+    =============================== */
+    .hero {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        gap: 1rem;
+        align-items: stretch;
+    }
+
+    .hero-text {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* ===============================
+       Events + Weather
+    =============================== */
+    .events-weather {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+    }
+
+    /* ===============================
+       Directory Views
+    =============================== */
     .directory.grid {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
 
-    /* Directory LIST view only (optional but clean) */
-    .directory.list .member-card {
-        flex-direction: row;
-        align-items: center;
-    }
+ .directory.list .member-card {
+     display: flex;
+     flex-direction: column;
+     gap: 0.5rem;
+ }
+ .directory.list {
+     display: block;
+ }
 
-    /* Footer */
+.spotlight-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+    /* ===============================
+       Footer
+    =============================== */
     footer {
         display: flex;
         justify-content: space-between;

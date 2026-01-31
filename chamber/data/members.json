@@ -14,7 +14,7 @@
             "address": "Zona 10, Guatemala City",
             "phone": "+502 5555-1002",
             "website": "https://www.greenmarketgt.com",
-            "image": "greenmarket.jpg",
+            "image": "greenmarket.png",
             "membership": 2,
             "description": "Organic and locally sourced products."
         },
@@ -23,7 +23,7 @@
             "address": "Zona 14, Guatemala City",
             "phone": "+502 5555-1003",
             "website": "https://www.urbanfitness.com",
-            "image": "urbanfitness.jpg",
+            "image": "urbanfitness.webp",
             "membership": 1,
             "description": "Modern gym and wellness center."
         },
