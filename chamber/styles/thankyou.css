@@ -1,0 +1,25 @@
+.thankyou {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.submission-details {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+}
+
+.submission-details p {
+    margin: 0.5rem 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.7rem 1.2rem;
+    background-color: #0b4f6c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
