@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Discover Guatemala City - Learn about local attractions, culture, and business opportunities.">
+    <meta name="author" content="Jeffrey Castellanos">
+
+    <title>Discover | Guatemala City Chamber of Commerce</title>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Discover Guatemala City">
+    <meta property="og:description" content="Explore attractions, culture, and opportunities in Guatemala City.">
+    <meta property="og:image" content="https://yourgithubusername.github.io/wdd231/chamber/images/og-image.jpg">
+    <meta property="og:url" content="https://yourgithubusername.github.io/wdd231/chamber/discover.html">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <!-- Discover JS (MODULE REQUIRED) -->
+    <script type="module" src="scripts/discover.js"></script>
+
+    <!-- Main JS (for year & last modified) -->
+    <script src="scripts/main.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Guatemala City Chamber of Commerce logo">
+            <h1>Guatemala City Chamber of Commerce</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html" class="active">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- PAGE TITLE -->
+        <section class="page-intro">
+            <h2>Discover Guatemala City</h2>
+            <p>Explore key attractions, cultural landmarks, and economic highlights that make Guatemala City a vibrant
+                place to live and do business.</p>
+        </section>
+
+        <!-- VISIT MESSAGE -->
+        <section id="visit-message" class="visit-message"></section>
+
+        <!-- DISCOVER GRID -->
+        <section class="discover-grid">
+            <!-- Cards will be injected dynamically from JSON -->
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-contact">
+            <p><strong>Guatemala City Chamber of Commerce</strong></p>
+            <p>Email: info@gcchamber.org</p>
+            <p>Phone: +502 3834-6665</p>
+        </div>
+
+        <div class="footer-info">
+            <span id="currentyear"></span> © Jeffrey Castellanos | WDD231
+        </div>
+
+        <div class="footer-modified">
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
