@@ -1,50 +1,50 @@
 export const places = [
     {
-        name: "Parque Central de Quetzaltenango",
-        address: "Zona 1, Quetzaltenango, Guatemala",
-        description: "El Parque Central es el corazón de la ciudad, rodeado de arquitectura histórica y espacios culturales.",
-        image: "images/discover/parque.webp"
+        name: "Central Park of Quetzaltenango",
+        address: "Zone 1, Quetzaltenango, Guatemala",
+        description: "Central Park is the heart of the city, surrounded by historic architecture and cultural spaces.",
+        image: "images/parque.webp"
     },
     {
-        name: "Cerro El Baúl",
-        address: "Zona 7, Quetzaltenango",
-        description: "Un mirador natural con vistas impresionantes de la ciudad y los volcanes cercanos.",
+        name: "El Baúl Hill",
+        address: "Zone 7, Quetzaltenango",
+        description: "A natural viewpoint with stunning views of the city and nearby volcanoes.",
         image: "images/discover/baul.webp"
     },
     {
-        name: "Teatro Municipal",
-        address: "Zona 1, Quetzaltenango",
-        description: "Un ícono cultural donde se presentan eventos artísticos y conciertos.",
+        name: "Municipal Theater",
+        address: "Zone 1, Quetzaltenango",
+        description: "A cultural landmark where artistic events and concerts are held.",
         image: "images/discover/teatro.webp"
     },
     {
-        name: "Laguna Chicabal",
+        name: "Chicabal Lagoon",
         address: "San Martín Sacatepéquez, Quetzaltenango",
-        description: "Laguna sagrada rodeada por bosque nuboso y utilizada para ceremonias mayas.",
+        description: "A sacred lagoon surrounded by cloud forest and used for Mayan ceremonies.",
         image: "images/discover/chicabal.webp"
     },
     {
-        name: "Pasaje Enríquez",
-        address: "Zona 1, Quetzaltenango",
-        description: "Centro comercial histórico con arquitectura europea.",
+        name: "Enríquez Passage",
+        address: "Zone 1, Quetzaltenango",
+        description: "A historic shopping passage featuring European-style architecture.",
         image: "images/discover/pasaje.webp"
     },
     {
-        name: "Museo del Ferrocarril",
-        address: "Zona 1, Quetzaltenango",
-        description: "Espacio histórico que muestra el desarrollo ferroviario en Guatemala.",
+        name: "Railroad Museum",
+        address: "Zone 1, Quetzaltenango",
+        description: "A historic site showcasing the development of the railway system in Guatemala.",
         image: "images/discover/museo.webp"
     },
     {
-        name: "Volcán Santa María",
+        name: "Santa María Volcano",
         address: "Quetzaltenango",
-        description: "Uno de los volcanes más impresionantes del país, ideal para turismo de aventura.",
+        description: "One of the most impressive volcanoes in the country, ideal for adventure tourism.",
         image: "images/discover/santamaria.webp"
     },
     {
-        name: "Centro Intercultural",
-        address: "Zona 3, Quetzaltenango",
-        description: "Espacio educativo que promueve intercambio cultural y aprendizaje de idiomas.",
+        name: "Intercultural Center",
+        address: "Zone 3, Quetzaltenango",
+        description: "An educational space that promotes cultural exchange and language learning.",
         image: "images/discover/intercultural.webp"
     }
 ];
