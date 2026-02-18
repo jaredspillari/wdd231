@@ -91,3 +91,27 @@
         text-align: left;
     }
 }
+/* ============================================
+   LARGE (1025px+)
+============================================ */
+
+@media (min-width: 1025px) {
+
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .discover-grid {
+        grid-template-areas:
+            "card1 card1 card2 card3"
+            "card4 card5 card6 card6"
+            "card7 card8 card8 card8";
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+}
