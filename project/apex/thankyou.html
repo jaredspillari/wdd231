@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Riders | Thank You</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+    <main class="container">
+        <h2>Thank You for Contacting Apex Riders!</h2>
+
+        <div class="card">
+            <p><strong>Name:</strong> <span id="displayName"></span></p>
+            <p><strong>Email:</strong> <span id="displayEmail"></span></p>
+            <p><strong>Subject:</strong> <span id="displaySubject"></span></p>
+            <p><strong>Message:</strong> <span id="displayMessage"></span></p>
+        </div>
+
+        <a href="index.html">
+            <button>Return Home</button>
+        </a>
+    </main>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+
+        document.getElementById("displayName").textContent = params.get("fullName");
+        document.getElementById("displayEmail").textContent = params.get("email");
+        document.getElementById("displaySubject").textContent = params.get("subject");
+        document.getElementById("displayMessage").textContent = params.get("message");
+    </script>
+
+</body>
+
+</html>

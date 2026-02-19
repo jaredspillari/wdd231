@@ -1,0 +1,193 @@
+/* ========== GLOBAL RESET ========== */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #0F172A;
+    color: #F1F5F9;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* ========== TYPOGRAPHY ========== */
+h1,
+h2,
+h3 {
+    font-family: 'Orbitron', sans-serif;
+    color: #FF2E63;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+/* ========== CONTAINER ========== */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* ========== HEADER ========== */
+header {
+    background: #1E293B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+/* ========== NAVIGATION ========== */
+#menuBtn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #F1F5F9;
+    cursor: pointer;
+}
+
+nav {
+    display: none;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+nav.show {
+    display: flex;
+}
+
+nav a {
+    color: #F1F5F9;
+    text-decoration: none;
+    padding: 0.5rem 0;
+    transition: color 0.3s ease;
+}
+
+nav a:hover,
+nav a[aria-current="page"] {
+    color: #FF2E63;
+}
+
+/* ========== GRID LAYOUT ========== */
+.grid {
+    display: grid;
+    gap: 1.5rem;
+    padding: 1rem 0;
+}
+
+/* ========== CARD DESIGN ========== */
+.card {
+    background: #1E293B;
+    padding: 1.5rem;
+    border-left: 4px solid #FF2E63;
+    border-radius: 6px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* ========== BUTTONS ========== */
+button {
+    background: #FF2E63;
+    border: none;
+    padding: 0.6rem 1rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #ff4f7a;
+}
+
+/* ========== FORM STYLES ========== */
+form {
+    max-width: 500px;
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+textarea {
+    padding: 0.6rem;
+    border-radius: 4px;
+    border: 1px solid #334155;
+    background: #1E293B;
+    color: #F1F5F9;
+}
+
+input:focus,
+textarea:focus {
+    outline: 2px solid #FF2E63;
+}
+
+/* ========== MODAL ========== */
+.modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.modal-content {
+    background: #1E293B;
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* ========== FOOTER ========== */
+footer {
+    text-align: center;
+    padding: 1.5rem 1rem;
+    background: #1E293B;
+    margin-top: 2rem;
+}
+
+/* ========== RESPONSIVE DESIGN ========== */
+@media (min-width: 768px) {
+
+    #menuBtn {
+        display: none;
+    }
+
+    nav {
+        display: flex !important;
+        flex-direction: row;
+        gap: 1.5rem;
+        margin-top: 0;
+    }
+
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}

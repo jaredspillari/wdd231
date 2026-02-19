@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jeffrey Castellanos">
+    <meta name="description" content="Contact Apex Riders for questions, feedback, or motorcycle suggestions.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Apex Riders | Contact">
+    <meta property="og:description"
+        content="Get in touch with Apex Riders for questions or feedback about motorcycles.">
+    <meta property="og:type" content="website">
+
+    <meta name="theme-color" content="#0F172A">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Apex Riders | Contact</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- ✅ CSS CONNECTED -->
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- JS -->
+    <script type="module" src="js/main.js" defer></script>
+</head>
+
+<body>
+
+    <header class="container">
+        <h1>Apex Riders</h1>
+
+        <button id="menuBtn" aria-label="Toggle Navigation Menu" aria-expanded="false" aria-controls="navMenu">
+            ☰
+        </button>
+
+        <nav id="navMenu" aria-label="Main Navigation">
+            <a href="index.html">Home</a>
+            <a href="motorcycles.html">Motorcycles</a>
+            <a href="contact.html" aria-current="page">Contact</a>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section>
+            <h2>Contact Us</h2>
+            <p>Have questions or suggestions? Send us a message below.</p>
+        </section>
+
+        <section>
+            <!-- ✅ FORM WITH ACTION -->
+            <form action="thankyou.html" method="get">
+
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" required minlength="3" autocomplete="name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required autocomplete="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required minlength="5">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required minlength="10"></textarea>
+                </div>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="container">
+        <p>&copy; 2026 Jeffrey Castellanos | WDD 231 | Apex Riders</p>
+    </footer>
+
+</body>
+
+</html>

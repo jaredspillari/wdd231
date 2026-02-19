@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jeffrey Castellanos">
+    <meta name="description" content="Browse, compare, and save motorcycles dynamically using Apex Riders.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Apex Riders | Motorcycle Catalog">
+    <meta property="og:description" content="Browse motorcycle specs, compare models, and save favorites dynamically.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.com/motorcycles.html">
+    <meta property="og:image" content="https://yourdomain.com/images/preview.jpg">
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#0F172A">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Apex Riders | Motorcycles</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- JS -->
+    <script type="module" src="scripts/main.js" defer></script>
+</head>
+
+<body>
+
+    <header class="container">
+        <h1>Apex Riders</h1>
+
+        <button id="menuBtn" aria-label="Toggle Navigation Menu" aria-expanded="false" aria-controls="navMenu">
+            ☰
+        </button>
+
+        <nav id="navMenu" aria-label="Main Navigation">
+            <a href="index.html">Home</a>
+            <a href="motorcycles.html" aria-current="page">Motorcycles</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section>
+            <h2>Motorcycle Catalog</h2>
+            <p>Explore dynamically loaded motorcycle specifications and compare models.</p>
+        </section>
+
+        <section>
+            <div id="motorcycleContainer" class="grid" aria-live="polite"></div>
+        </section>
+
+    </main>
+
+    <!-- Accessible Modal -->
+    <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle"
+        aria-describedby="modalDetails">
+
+        <div class="modal-content">
+
+            <button id="closeModal" aria-label="Close modal">
+                ✕
+            </button>
+
+            <div id="modalDetails"></div>
+
+        </div>
+    </div>
+
+    <footer class="container">
+        <p>&copy; 2026 Jeffrey Castellanos | WDD 231 | Apex Riders</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "name": "Yamaha R1",
+        "engine": "998cc Inline-4",
+        "power": "200 HP",
+        "price": "$17,999",
+        "topSpeed": "186 mph",
+        "description": "High-performance superbike designed for track and street dominance.",
+        "image": "images/r1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Kawasaki Ninja ZX-10R",
+        "engine": "998cc Inline-4",
+        "power": "203 HP",
+        "price": "$16,999",
+        "topSpeed": "186 mph",
+        "description": "Race-proven superbike with championship DNA.",
+        "image": "images/zx10r.webp"
+    },
+    {
+        "id": 3,
+        "name": "Honda CBR1000RR-R",
+        "engine": "999cc Inline-4",
+        "power": "214 HP",
+        "price": "$28,500",
+        "topSpeed": "186 mph",
+        "description": "Track-focused superbike with MotoGP-inspired engineering.",
+        "image": "images/cbr.webp"
+    },
+    {
+        "id": 4,
+        "name": "Suzuki GSX-R1000",
+        "engine": "999cc Inline-4",
+        "power": "199 HP",
+        "price": "$15,799",
+        "topSpeed": "186 mph",
+        "description": "Legendary superbike known for reliability and race performance.",
+        "image": "images/gsxr1000.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Ducati Panigale V4",
+        "engine": "1103cc V4",
+        "power": "214 HP",
+        "price": "$25,995",
+        "topSpeed": "199 mph",
+        "description": "Italian superbike with MotoGP-derived V4 engine.",
+        "image": "images/panigalev4.jpg"
+    },
+    {
+        "id": 6,
+        "name": "BMW S1000RR",
+        "engine": "999cc Inline-4",
+        "power": "205 HP",
+        "price": "$17,895",
+        "topSpeed": "188 mph",
+        "description": "Precision German engineering built for ultimate speed.",
+        "image": "images/s1000rr.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Aprilia RSV4",
+        "engine": "1099cc V4",
+        "power": "217 HP",
+        "price": "$25,999",
+        "topSpeed": "190 mph",
+        "description": "Aggressive Italian superbike with racing heritage.",
+        "image": "images/rsv4.jpg"
+    },
+    {
+        "id": 8,
+        "name": "MV Agusta F4",
+        "engine": "998cc Inline-4",
+        "power": "195 HP",
+        "price": "$22,000",
+        "topSpeed": "186 mph",
+        "description": "Exotic Italian superbike with iconic design.",
+        "image": "images/f4.jpg"
+    },
+    {
+        "id": 9,
+        "name": "KTM RC 8C",
+        "engine": "889cc Parallel-Twin",
+        "power": "128 HP",
+        "price": "$39,599",
+        "topSpeed": "170 mph",
+        "description": "Track-only machine engineered for pure racing.",
+        "image": "images/rc8c.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Triumph Daytona 765",
+        "engine": "765cc Inline-3",
+        "power": "128 HP",
+        "price": "$17,500",
+        "topSpeed": "165 mph",
+        "description": "Lightweight British sportbike with triple-cylinder power.",
+        "image": "images/daytona765.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Yamaha R6",
+        "engine": "599cc Inline-4",
+        "power": "117 HP",
+        "price": "$12,199",
+        "topSpeed": "160 mph",
+        "description": "Middleweight supersport built for agility and track performance.",
+        "image": "images/r6.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Honda CBR600RR",
+        "engine": "599cc Inline-4",
+        "power": "113 HP",
+        "price": "$11,999",
+        "topSpeed": "155 mph",
+        "description": "Reliable supersport with excellent handling.",
+        "image": "images/cbr600rr.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Kawasaki Ninja 650",
+        "engine": "649cc Parallel-Twin",
+        "power": "67 HP",
+        "price": "$7,899",
+        "topSpeed": "130 mph",
+        "description": "Balanced sportbike ideal for street and beginners.",
+        "image": "images/ninja650.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Ducati Supersport 950",
+        "engine": "937cc L-Twin",
+        "power": "110 HP",
+        "price": "$15,495",
+        "topSpeed": "150 mph",
+        "description": "Sporty yet comfortable Italian road bike.",
+        "image": "images/supersport950.jpg"
+    },
+    {
+        "id": 15,
+        "name": "BMW G310R",
+        "engine": "313cc Single-Cylinder",
+        "power": "34 HP",
+        "price": "$5,695",
+        "topSpeed": "88 mph",
+        "description": "Entry-level street bike with premium BMW styling.",
+        "image": "images/g310r.jpg"
+    }
+]
