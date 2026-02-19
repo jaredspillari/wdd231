@@ -191,3 +191,77 @@ footer {
     }
 
 }
+.hero-banner {
+    background: #0F172A;
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.intro {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+
+.preview-card {
+    background: #1E293B;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    transition: 0.3s;
+}
+
+.preview-card:hover {
+    transform: translateY(-5px);
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #3B82F6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.cta-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background: #F43F5E;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.footer {
+    background: #0F172A;
+    color: white;
+    padding: 3rem 0 1rem 0;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+}

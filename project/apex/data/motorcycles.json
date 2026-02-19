@@ -67,7 +67,7 @@
         "price": "$25,999",
         "topSpeed": "190 mph",
         "description": "Aggressive Italian superbike with racing heritage.",
-        "image": "images/rsv4.jpg"
+        "image": "images/rsv4.webp"
     },
     {
         "id": 8,
@@ -107,7 +107,7 @@
         "price": "$12,199",
         "topSpeed": "160 mph",
         "description": "Middleweight supersport built for agility and track performance.",
-        "image": "images/r6.jpg"
+        "image": "images/r6.webp"
     },
     {
         "id": 12,
@@ -147,6 +147,6 @@
         "price": "$5,695",
         "topSpeed": "88 mph",
         "description": "Entry-level street bike with premium BMW styling.",
-        "image": "images/g310r.jpg"
+        "image": "images/gs310r.jpg"
     }
 ]
